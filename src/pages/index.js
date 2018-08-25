@@ -244,12 +244,12 @@ class Homepage extends React.Component {
             <ul className="actions uniform">
               <li>
                 <a href="#" className="button special">
-                  Sign Up
+                  Contact
                 </a>
               </li>
               <li>
                 <a href="#" className="button">
-                  Learn More
+                  Book Now
                 </a>
               </li>
             </ul>
