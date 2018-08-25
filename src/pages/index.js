@@ -235,7 +235,7 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id="four" className="main style2 special">
+        <section id="four" className="main style3 special">
           <div className="container">
             <header className="major">
               <h2>Have any questions?</h2>
