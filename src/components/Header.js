@@ -41,7 +41,7 @@ class Header extends React.Component {
             <strong>Rinehart Real Estate</strong>
             <br />
           </h1>
-          <h2>Central Florida Family Homes</h2>
+          <h3>Central Florida Family Homes</h3>
 
           <p>
             For over 25 years, our family business
