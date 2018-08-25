@@ -7,6 +7,14 @@ import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 
+import IanJump from '../assets/images/IanJump.jpg'
+import Pawleys from '../assets/images/homes/PawleysHome.jpg'
+import ForkRanch from '../assets/images/homes/ForkRanchHome2.jpg'
+import DeerRun from '../assets/images/homes/DeerRunHome2.jpg'
+import GantsCir from '../assets/images/homes/GantsCirHome.jpg'
+import ZionDr from '../assets/images/homes/ZionDrHome.jpg'
+import MistyGlen from '../assets/images/homes/MistyGlenHome.jpg'
+
 class Homepage extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -17,27 +25,32 @@ class Homepage extends React.Component {
 
         <section id="one" className="main style1 special">
           <div className="grid-wrapper">
-            <div className="col-12">
+            <div className="col-6 align-left">
               <header className="major">
                 <h2>
-                  <b>Recent Listings</b>
+                  <b>Active Listings</b>
                 </h2>
               </header>
-              <p>Check out some of the latest homes we have for sale! </p>
+              <p>Here are just a few of the latest homes we have for sale! </p>
             </div>
+            <div className="col-6" />
 
             <div className="col-4">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <img src={Pawleys} alt="" />
               </span>
-              <h3>3381 Pawleys Loop N </h3>
+              <h3>3381 Pawleys Loop, St. Cloud </h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                This magnificent 5 bedroom 3 bath pool home, located in the
+                heart of the beautiful and highly desirable Stevens Plantation
+                subdivision is absolutely AMAZING!
               </p>
               <ul className="actions">
                 <li>
-                  <a href="#" className="button">
+                  <a
+                    href="https://www.zillow.com/homedetails/3381-Pawleys-Loop-N-Saint-Cloud-FL-34769/69318833_zpid/"
+                    className="button"
+                  >
                     More
                   </a>
                 </li>
@@ -45,16 +58,20 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <img src={ForkRanch} alt="" />
               </span>
-              <h3>S Fork Ranch Dr </h3>
+              <h3>S Fork Ranch Dr, Clermont </h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                This is a georgeous piece of property. This property has
+                frontage on the Seminole Lake Glider Airport. There are numerous
+                opportunities to explore with this land.
               </p>
               <ul className="actions">
                 <li>
-                  <a href="#" className="button">
+                  <a
+                    href="https://www.zillow.com/homedetails/S-Fork-Ranch-Dr-Clermont-FL-34714/247134866_zpid/"
+                    className="button"
+                  >
                     More
                   </a>
                 </li>
@@ -62,16 +79,20 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={DeerRun} alt="" />
               </span>
-              <h3>0 Deer Run Rd </h3>
+              <h3>0 Deer Run Rd, St. Cloud </h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                This property is directly across the street from a fire
+                department, on the corner of Deer Run &amp; Hickory Tree Rd, one
+                of the hottest and most quickly developing markets in St. Cloud.
               </p>
               <ul className="actions">
                 <li>
-                  <a href="#" className="button">
+                  <a
+                    href="https://www.zillow.com/homedetails/0-Deer-Run-Rd-Saint-Cloud-FL-34772/2093336810_zpid/"
+                    className="button"
+                  >
                     More
                   </a>
                 </li>
@@ -79,7 +100,7 @@ class Homepage extends React.Component {
             </div>
           </div>
           <div className="grid-wrapper">
-            <div className="col-12">
+            <div className="col-6 align-left">
               <br />
               <header className="major">
                 <h2>
@@ -87,21 +108,27 @@ class Homepage extends React.Component {
                 </h2>
               </header>
               <p>
-                Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
+                Check out the beautiful homes sold in some of our most recent
+                success stories!
               </p>
             </div>
+            <div className="col-6" />
             <div className="col-4">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <img src={GantsCir} alt="" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>1545 Gants Cir, Kissimmee</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                We represented the sellers of this 4 bed, 3 bath suburban
+                beauty, capturing a sale price of just over $260,000 for the
+                homeowners.
               </p>
               <ul className="actions">
                 <li>
-                  <a href="#" className="button">
+                  <a
+                    href="https://www.zillow.com/homedetails/1545-Gants-Cir-Kissimmee-FL-34744/60198894_zpid/"
+                    className="button"
+                  >
                     More
                   </a>
                 </li>
@@ -109,16 +136,19 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <img src={ZionDr} alt="" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>4906 Zion Dr, St. Cloud</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                This fantastic, move-in ready 3 bedroom home was purchased for
+                only $239,000 thanks to the help of our team.
               </p>
               <ul className="actions">
                 <li>
-                  <a href="#" className="button">
+                  <a
+                    href="https://www.zillow.com/homedetails/4906-Zion-Dr-Saint-Cloud-FL-34772/55793176_zpid/"
+                    className="button"
+                  >
                     More
                   </a>
                 </li>
@@ -126,16 +156,19 @@ class Homepage extends React.Component {
             </div>{' '}
             <div className="col-4">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <img src={MistyGlen} alt="" />
               </span>
-              <h3>Magna feugiat lorem</h3>
+              <h3>1460 Misty Glen Ln, Clermont</h3>
               <p>
-                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-                nunc lobortis non amet vis sed volutpat et nascetur.
+                Our buyers scored this highly maintained and pristine 3 bedroom,
+                2 bath Ashbourne model for just $273,000.
               </p>
               <ul className="actions">
                 <li>
-                  <a href="#" className="button">
+                  <a
+                    href="https://www.zillow.com/homedetails/1460-Misty-Glen-Ln-Clermont-FL-34711/68074574_zpid/"
+                    className="button"
+                  >
                     More
                   </a>
                 </li>
@@ -150,9 +183,9 @@ class Homepage extends React.Component {
             <div className="col-6">
               <header className="major">
                 <h2>
-                  Lorem ipsum dolor adipiscing
+                  Entrust your family's home
                   <br />
-                  amet dolor consequat
+                  &nbsp;with our family's expertise.
                 </h2>
               </header>
               <p>
@@ -183,21 +216,20 @@ class Homepage extends React.Component {
               <header className="major">
                 <br />
                 <h2>
-                  Lorem ipsum dolor adipiscing
+                  Whether it's a quick flip
                   <br />
-                  amet dolor consequat
+                  &nbsp;or a long term investment, we're happy to help.
                 </h2>
               </header>
               <p>
-                Adipiscing a commodo ante nunc accumsan et interdum mi ante
-                adipiscing. A nunc lobortis non nisl amet vis sed volutpat
-                aclacus nascetur ac non. Lorem curae et ante amet sapien sed
-                tempus adipiscing id accumsan.
+                There's nothing we love more than connecting people with the
+                perfect property for them. Send us a message today, and let's
+                get started on discovering your dream home.
               </p>
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img src={pic01} alt="" />
+                <img src={IanJump} alt="" />
               </span>
             </div>
           </div>
@@ -206,9 +238,9 @@ class Homepage extends React.Component {
         <section id="four" className="main style2 special">
           <div className="container">
             <header className="major">
-              <h2>Ipsum feugiat consequat?</h2>
+              <h2>Have any questions?</h2>
             </header>
-            <p>Sed lacus nascetur ac ante amet sapien.</p>
+            <p>Feel free to send us an email or schedule an appointment.</p>
             <ul className="actions uniform">
               <li>
                 <a href="#" className="button special">

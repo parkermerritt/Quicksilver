@@ -44,9 +44,9 @@ class Header extends React.Component {
           <h2>Central Florida Family Homes</h2>
 
           <p>
-            Accumsan feugiat mi commodo erat lorem ipsum, sed magna
+            For over 25 years, our family business
             <br />
-            lobortis feugiat sapien sed etiam volutpat accumsan.
+            has provided Florida families with quality homes.
           </p>
           <ul className="actions">
             <li>
