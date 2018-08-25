@@ -19,13 +19,77 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2>Recent Listings</h2>
+                <h2>
+                  <b>Recent Listings</b>
+                </h2>
+              </header>
+              <p>Check out some of the latest homes we have for sale! </p>
+            </div>
+
+            <div className="col-4">
+              <span className="image fit">
+                <img src={pic02} alt="" />
+              </span>
+              <h3>3381 Pawleys Loop N </h3>
+              <p>
+                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
+                nunc lobortis non amet vis sed volutpat et nascetur.
+              </p>
+              <ul className="actions">
+                <li>
+                  <a href="#" className="button">
+                    More
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-4">
+              <span className="image fit">
+                <img src={pic03} alt="" />
+              </span>
+              <h3>S Fork Ranch Dr </h3>
+              <p>
+                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
+                nunc lobortis non amet vis sed volutpat et nascetur.
+              </p>
+              <ul className="actions">
+                <li>
+                  <a href="#" className="button">
+                    More
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-4">
+              <span className="image fit">
+                <img src={pic04} alt="" />
+              </span>
+              <h3>0 Deer Run Rd </h3>
+              <p>
+                Adipiscing a commodo ante nunc magna lorem et interdum mi ante
+                nunc lobortis non amet vis sed volutpat et nascetur.
+              </p>
+              <ul className="actions">
+                <li>
+                  <a href="#" className="button">
+                    More
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="grid-wrapper">
+            <div className="col-12">
+              <br />
+              <header className="major">
+                <h2>
+                  <b>Recently Sold</b>
+                </h2>
               </header>
               <p>
                 Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
               </p>
             </div>
-
             <div className="col-4">
               <span className="image fit">
                 <img src={pic02} alt="" />
@@ -45,7 +109,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <img src={pic02} alt="" />
               </span>
               <h3>Magna feugiat lorem</h3>
               <p>
@@ -59,10 +123,10 @@ class Homepage extends React.Component {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div>{' '}
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic02} alt="" />
               </span>
               <h3>Magna feugiat lorem</h3>
               <p>
@@ -77,35 +141,6 @@ class Homepage extends React.Component {
                 </li>
               </ul>
             </div>
-          </div>
-
-          <div className="col-12">
-            <br />
-
-            <header className="major">
-              <h2>Recently Sold</h2>
-            </header>
-
-            <p>
-              Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
-            </p>
-          </div>
-          <div className="col-4">
-            <span className="image fit">
-              <img src={pic02} alt="" />
-            </span>
-            <h3>Magna feugiat lorem</h3>
-            <p>
-              Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-              nunc lobortis non amet vis sed volutpat et nascetur.
-            </p>
-            <ul className="actions">
-              <li>
-                <a href="#" className="button">
-                  More
-                </a>
-              </li>
-            </ul>
           </div>
         </section>
 
@@ -128,11 +163,11 @@ class Homepage extends React.Component {
               </p>
 
               <p>
-                WE genuinely love helping people so YOUR BEST INTEREST ARE OUR
+                WE genuinely love helping people so YOUR BEST INTERESTS ARE OUR
                 FIRST PRIORITY. My father has been a captain of police here in
-                central Florida for 27 years and I have lived here my whole
-                life. Needless to say we know the people and the area like the
-                back of our hands. When you choose a realtor choose a local
+                central Florida for 27 years, and I have lived here my whole
+                life. Needless to say, we know the people and the area like the
+                back of our hands. When you choose a realtor, choose a local
                 expert.
               </p>
               <br />
